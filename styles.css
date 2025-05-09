@@ -1,0 +1,82 @@
+body{background-color: rgb(252, 223, 223);}
+header{display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+h1{color: #2a0217;}
+.myinfo{display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+.Information{
+    display: flex;
+    flex-direction: column;
+    gap: 0,5rem;
+
+}
+.per{font-size: 2rem;
+    color: #682b4b;
+}
+.info{
+    font-size: 1rem;
+    color: #682b4b;
+}
+.career{display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+.careerobj{
+    display: flex;
+    flex-direction: column;
+    gap: 0,5rem;
+}
+.caree{font-size: 2rem;
+    color: #682b4b;
+}
+.myodj{font-size: 1rem;
+    color: #682b4b;}
+.skills{
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+.skill{display: flex;
+flex-direction: column;
+gap: 0,5rem;}
+
+.tskills{
+    font-size: 2rem;
+    color: #682b4b;
+}
+.myskills{
+    font-size: 1rem;
+    color: #682b4b;}
+.myskills ul li:hover {
+        background-color: #f0f0f0;
+        color: #c0387e;}
+.edu{
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+.education{display: flex;
+flex-direction: column;
+gap: 0.5rem;}
+.myeducation{font-size: 2rem;
+    color: #682b4b;
+
+}
+
+.educationtable{
+    border-spacing: 1px 1px;
+    color: #e069a5;}
+.educationtable tr:nth-child(even){background-color: #8d1955;}
+.educationtable tr:nth-child(odd){background-color: #3c0320;}
+.educationtable tr:hover{
+    background-color: #2a0217;
+    color:#682b4b}
