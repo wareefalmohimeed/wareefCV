@@ -23,6 +23,20 @@ h1{color: #2a0217;}
     font-size: 1rem;
     color: #682b4b;
 }
+.walink{
+    background-color: #2a0217;
+    color: #e069a5;
+    padding: 3px 8px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.walink:hover {
+    background-color: #f9ecec;
+}
+
+
 .career{display: flex;
     align-items: center;
     margin: 2rem auto;
@@ -75,8 +89,8 @@ gap: 0.5rem;}
 .educationtable{
     border-spacing: 1px 1px;
     color: #e069a5;}
-.educationtable tr:nth-child(even){background-color: #8d1955;}
+.educationtable tr:nth-child(even){background-color: #9e3a6e;}
 .educationtable tr:nth-child(odd){background-color: #3c0320;}
 .educationtable tr:hover{
-    background-color: #2a0217;
+    background-color: #3f0a26;
     color:#682b4b}
